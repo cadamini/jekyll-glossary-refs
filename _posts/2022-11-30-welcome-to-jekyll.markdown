@@ -7,6 +7,8 @@ categories: jekyll update
 
 this is a test text and one funny cite on another line 
 
+and a test test will also be converted
+
 foo
 
 42 is the answer to everything

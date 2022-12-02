@@ -1,13 +1,13 @@
 module Foobar
   def self.transform(site)
-    
-    puts site.config["glossary_entries"]
 
     site.documents.each do |doc| 
-      puts doc
       # page.content match word from @glossary_entries
-      doc.content.gsub!('foo', 'bar')
-    end 
+
+      site.config["glossary_entries"].keys.each do |term|
+        doc.content.gsub!(term, "<a href='#{term}'>#{term}</a>")
+      end 
+    end
   end
 end
 
