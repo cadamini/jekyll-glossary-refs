@@ -1,0 +1,15 @@
+---
+layout: default
+title: Glossary
+---
+
+<h1>Glossary</h1>
+
+<dl>
+    {% for entry in site.data.glossary %}
+    <h3>
+        {{ entry.term }}
+    </h3>
+    <p>{{ entry.definition }}</p>
+    {% endfor %}
+</dl>

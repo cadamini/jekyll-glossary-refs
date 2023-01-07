@@ -1,0 +1,6 @@
+- term: Jekyll
+  definition: A static site generator written in Ruby.
+- term: Liquid
+  definition: A template language used by Jekyll to generate dynamic content.
+- term: Markdown
+  definition: A lightweight markup language used to format plain text.
